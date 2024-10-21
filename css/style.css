@@ -4,7 +4,13 @@ body {
     color: #434455;
     background-color: #fff;
 }
-
+.container { 
+    max-width: 1158px;
+    padding-left:   
+    padding-right:  
+    margin-left:  
+    margin-right:  
+    }
 ul,
 ol {
     list-style: none;
