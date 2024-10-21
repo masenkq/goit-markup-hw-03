@@ -4,16 +4,19 @@ body {
     color: #434455;
     background-color: #fff;
 }
-img{
+
+img {
     display: block;
 }
-.container { 
+
+.container {
     max-width: 1158px;
     padding-left: 15px;
-    padding-right: 15px;  
-    margin: 0 auto;  
+    padding-right: 15px;
+    margin: 0 auto;
     display: flex;
-    }
+}
+
 ul,
 ol {
     list-style: none;
@@ -31,7 +34,7 @@ a {
 .header-nav {
     display: flex;
     align-items: center;
-
+    padding: 24px 0;
 }
 
 .logo {
@@ -42,7 +45,8 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin: 76px; /*motzna k logo-header*/
+    margin: 76px;
+    /*motzna k logo-header*/
 }
 
 .studio-color {
@@ -78,7 +82,7 @@ a {
 }
 
 .contacts-list {
-    display: flex; 
+    display: flex;
     gap: 40px;
 }
 
@@ -127,18 +131,37 @@ a {
 
 .solutions-button:hover,
 .solutions-button:focus {
-    background-color:/* #404bbf*/ #4d5ae5; 
+    background-color:
+        /* #404bbf*/
+        #4d5ae5;
 
 }
 
 /*section2*/
 .stpudite {
     background-color: #ffffff;
+    padding: 120px 0;
 }
 
-.stpudite-list {}
+.visually-hidden {
+    display: none;
+}
 
-.stpudite-items {}
+.stpudite-list {
+    display: flex;
+    gap: 24px;
+    /*можна використовувати margin-right: 24px для тега li у класі, для останього
+     li використовуємо margin-right: 0 для обнулення відступів*/
+
+}
+
+.stpudite-items {
+    width: calc((100% - 72px) / 4);
+    /* від загальної ширини екрану віднімаємо суму відступів між пунктами і 
+    ділимо це на кількість пунктів списку) (можна також використовувати
+    width calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 3 * 24px) / 4)
+     або flex-basis: calc((100% - 72px) / 4))*/
+}
 
 .stpudite-subtitle {
     font-weight: 500;
@@ -146,6 +169,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .stpudite-text {
@@ -157,6 +181,7 @@ a {
 /*section3*/
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -168,10 +193,13 @@ a {
     color: #2e2f42;
     background-color: #ffffff;
     /*mozna spatne*/
+    margin-bottom: 72px;
 }
 
 .team-list {
     background-color: #ffffff;
+    display: flex;
+    gap: 24px;
 }
 
 .team-items {
