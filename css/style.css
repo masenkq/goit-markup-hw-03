@@ -249,6 +249,7 @@ a {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    width: calc((100% - 48px) / 3);
 
 }
 
@@ -257,6 +258,7 @@ a {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-subtitle {
@@ -266,6 +268,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-text {
@@ -273,6 +276,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-items {
@@ -303,6 +307,7 @@ a {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-text {
