@@ -158,6 +158,8 @@ a {
             ділимо це на кількість пунктів списку) (можна також використовувати
             width calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 3 * 24px) / 4)
              або flex-basis: calc((100% - 72px) / 4))*/
+    padding-left: 0;
+    margin: 0;
 }
 
 .stpudite-items {
@@ -201,6 +203,8 @@ a {
     background-color: #ffffff;
     display: flex;
     gap: 24px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .team-items {
@@ -259,6 +263,8 @@ a {
     column-gap: 24px;
     row-gap: 48px;
     width: calc((100% - 48px) / 3);
+    padding-left: 0;
+    margin: 0;
 }
 
 .portfolio-subtitle {
