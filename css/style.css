@@ -68,6 +68,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -152,16 +153,14 @@ a {
     gap: 24px;
     /*можна використовувати margin-right: 24px для тега li у класі, для останього
      li використовуємо margin-right: 0 для обнулення відступів*/
-
-}
-
-.stpudite-items {
     width: calc((100% - 72px) / 4);
     /* від загальної ширини екрану віднімаємо суму відступів між пунктами і 
-    ділимо це на кількість пунктів списку) (можна також використовувати
-    width calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 3 * 24px) / 4)
-     або flex-basis: calc((100% - 72px) / 4))*/
+            ділимо це на кількість пунктів списку) (можна також використовувати
+            width calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 3 * 24px) / 4)
+             або flex-basis: calc((100% - 72px) / 4))*/
 }
+
+.stpudite-items {}
 
 .stpudite-subtitle {
     font-weight: 500;
@@ -212,7 +211,10 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    ;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -220,6 +222,12 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-container {
+    padding: 32px 0;
+
 }
 
 /*4secti9on*/
