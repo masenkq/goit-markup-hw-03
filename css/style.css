@@ -9,6 +9,10 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
 header-container {
     display: flex;
 }
