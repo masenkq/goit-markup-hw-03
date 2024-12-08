@@ -8,11 +8,25 @@ body {
 img {
     display: block;
 }
-
-a {
+a{
     text-decoration: none;
 }
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 .header-container {
     display: flex;
     align-items: center;
@@ -52,7 +66,6 @@ ol {
 .header-nav {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .logo {
@@ -63,7 +76,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin: 76px;
+    margin-right: 76px;
     /*motzna k logo-header*/
 }
 
@@ -77,10 +90,11 @@ ol {
 }
 
 .nav-item {
-    padding: 24px 0;
+   
 }
 
 .nav-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -98,6 +112,7 @@ ol {
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-list {
@@ -129,6 +144,9 @@ ol {
     text-align: center;
     color: #fff;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .solutions-button {
@@ -146,6 +164,8 @@ ol {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+        margin-right: auto;
 }
 
 .solutions-button:hover,
@@ -205,13 +225,12 @@ ol {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    background-color: #ffffff;
+
     /*mozna spatne*/
     margin-bottom: 72px;
 }
 
 .team-list {
-    background-color: #ffffff;
     display: flex;
     gap: 24px;
     padding-left: 0;
@@ -234,7 +253,7 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: calc((100% - 72px) / 4);
+
     text-align: center;
     margin-bottom: 8px
 }
@@ -249,7 +268,7 @@ ol {
 
 .team-container {
     padding: 32px 0;
-    border-radius: 0px 0px 4px 4px;
+
 
 }
 
@@ -268,7 +287,7 @@ ol {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    width: calc((100% - 48px) / 3);
+    
 
 }
 
@@ -277,7 +296,7 @@ ol {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 48px) / 3);
+    
     padding-left: 0;
     margin: 0;
 }
@@ -289,7 +308,7 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    width: calc((100% - 48px) / 3);
+   
 }
 
 .portfolio-text {
@@ -297,7 +316,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    width: calc((100% - 48px) / 3);
+   
 }
 
 .portfolio-items {
